@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-21 14:41:13.023840",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_4unh",
+  "punch_in",
+  "punch_out",
+  "date"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_4unh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "punch_in",
+   "fieldtype": "Time",
+   "label": "Punch In"
+  },
+  {
+   "fieldname": "punch_out",
+   "fieldtype": "Time",
+   "label": "Punch Out"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-10-21 14:43:59.757906",
+ "modified_by": "Administrator",
+ "module": "Custom App",
+ "name": "In Out Time",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
